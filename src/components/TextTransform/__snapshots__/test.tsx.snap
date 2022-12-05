@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TextUppercase /> should render the heading 1`] = `
+.c0 {
+  width: 100%;
+  height: 100%;
+  max-width: 900px;
+  padding: 20px;
+}
+
+.c3 {
+  width: 100%;
+  min-height: 300px;
+}
+
+.c4 {
+  padding: 10px;
+  border: none;
+  background: blue;
+  color: white;
+  margin: 10px;
+}
+
+.c1 {
+  list-style: none;
+  margin: 20px 0px;
+}
+
+.c2 {
+  display: inline;
+  padding: 10px;
+  border: 1px solid #000;
+  margin: 5px;
+  cursor: pointer;
+}
+
+<main
+  class="c0"
+>
+  <h1>
+    TextUppercase
+  </h1>
+  <ul
+    class="c1"
+  >
+    <li
+      class="c2"
+    >
+      Camel Case
+    </li>
+    <li
+      class="c2"
+    >
+      Uppercase
+    </li>
+    <li
+      class="c2"
+    >
+      LowerCase
+    </li>
+    <li
+      class="c2"
+    >
+      First Uppercase
+    </li>
+  </ul>
+  <textarea
+    class="c3"
+  />
+  <button
+    class="c4"
+  >
+    Transformar
+  </button>
+  <textarea
+    class="c3"
+  />
+</main>
+`

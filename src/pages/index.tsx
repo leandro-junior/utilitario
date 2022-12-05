@@ -1,5 +1,9 @@
-import Main from 'components/Main'
+import TextTransform from 'components/TextTransform'
 
 export default function Home() {
-  return <Main />
+  return (
+    <>
+      <TextTransform />
+    </>
+  )
 }

@@ -1,5 +1,5 @@
 {
-  "name": "react-avancado-boilerplate",
+  "name": "eleven-solution-utilitario",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -30,10 +30,6 @@
     "styled-components": "5.3.3"
   },
   "devDependencies": {
-    "@storybook/addon-essentials": "6.4.14",
-    "@storybook/builder-webpack5": "^6.4.14",
-    "@storybook/manager-webpack5": "^6.4.14",
-    "@storybook/react": "6.4.14",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.2",
     "@types/jest": "^27.4.0",
@@ -54,7 +50,6 @@
     "lint-staged": "^12.2.2",
     "plop": "^3.0.5",
     "prettier": "^2.4.1",
-    "storybook-addon-next-router": "^3.0.8",
     "typescript": "^4.5.5",
     "webpack": "5.67.0"
   }
