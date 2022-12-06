@@ -14,7 +14,7 @@ type TRANSFORM_STRING =
   | TRANSFORM_TYPE.LOWERCASE
   | TRANSFORM_TYPE.UPPERCASE
 
-const sentenceCase = (text: string): string | void => {
+const sentenceCase = (text: string): string => {
   return text.replace(/(^|(\n)|([.?;!]) *)([a-z])/g, (match) =>
     match.toUpperCase()
   )
