@@ -14,7 +14,7 @@ jobs:
         with:
           node-version: 14.x
       - name: Install dependencies
-        run: npm install  
-      - name: Build
-        run: npm run build
-      
+        run: npm install
+      - name: Tests Cases
+        run: npm run test
+
